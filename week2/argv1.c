@@ -1,0 +1,13 @@
+#include <cs50.h>
+#include <stdio.h>
+
+// the fucking file name is included in this list as the
+// 0'th elemenet, dumb
+
+int main(int argc, string argv[])
+{
+    for (int i = 0; i < argc; i++)
+    {
+        printf("%s\n", argv[i]);
+    }
+}
