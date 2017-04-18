@@ -60,5 +60,16 @@ int main(int argc, string argv[])
         }
     }
      
-}// ./crack3 503RHmlyy2lZE C
-// ./crack3 50fkUxYHbnXGw rofl
+}
+// ./crack3 503RHmlyy2lZE                 C
+// ./crack3 50fkUxYHbnXGw                 rofl
+// ./crack3 50.jPgLzVirkc                 ji
+// ./crack3 50YHuxoCN9Jkc                 JH
+// ./crack3 50QvlJWn2qJGE                 NOPE
+// ./crack3 50CPlMDLT06yY                 ha
+// ./crack3 50WUNAFdX/yjA                 Yale
+// ./crack3 50fkUxYHbnXGw                 rofl
+// ./crack3 50C6B0oz0HWzo                 FTW
+// ./crack3 50nq4RV/NVU0I                 ABC
+// ./crack3 50vtwu4ujL.Dk                 haha
+// ./crack3 50i2t3sOSAZtk                 lol
