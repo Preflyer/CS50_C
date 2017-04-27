@@ -161,6 +161,8 @@ void greet(void)
 void init(void)
 {
     int total = (d * d - 1);
+    
+    // initializes odd board 
     if (d % 2 != 0)
     {
         for (int i = 0; i < d; i++)
@@ -174,6 +176,7 @@ void init(void)
         }
     }    
     
+    // initializes even starting board with reversed 1/2 starting positions
     if (d % 2 == 0)
     {
         for (int i = 0; i < d; i++)
@@ -305,6 +308,7 @@ bool move(int tile)
  */
 bool won(void)
 {   
+    // init winning board 1 => 15 in order
     int flag = 1;
     int counter = 1;
     for (int i = 0; i < d; i++)
@@ -316,7 +320,7 @@ bool won(void)
         }
     }
     won_board[d-1][d-1] = 0;
-    
+    // test to see if current board == winning board
     for (int i = 0; i < d; i++)
     {
         for (int j = 0; j < d; j++)
